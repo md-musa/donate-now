@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate Today</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Top banner -->
+    <header>
+      <div class="center">
+        <h1 class="text-primary-white">
+          Let's help those who are<br />
+          More in need.
+        </h1>
+        <p class="text-secondary-white">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+          Repudiandae ipsa vero officia, sapiente
+        </p>
+        <button class="btn-primary">Donate Now</button>
+      </div>
+    </header>
+
+    <!-- Donate section -->
+    <main>
+      <div class="center">
+        <h1 class="text-primary-black">Donate today</h1>
+        <p class="text-secondary-black">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum<br />
+          minima illum suscipit at, mollitia in.
+        </p>
+
+        <div>
+          <button class="amount-btn">100tk</button>
+          <button class="amount-btn selected-amount">500tk</button>
+          <button class="amount-btn">1000tk</button>
+          <button class="amount-btn">2000tk</button>
+        </div>
+
+        <input
+          id="custom-amount"
+          type="text"
+          placeholder="Other amount (Taka)"
+          type="number"
+        /><br />
+        <button class="btn-primary">Donate Now</button>
+      </div>
+    </main>
+
+    <!-- Donate plans -->
+    <section>
+      <h1 class="text-primary-black">Out Donate Plan</h1>
+      <p class="text-secondary-black">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, <br />
+        recusandae autem! Debitis sed assumenda veniam?
+      </p>
+
+      <div class="plan-card-container">
+        <div class="plan-card card-1">
+          <img class="plan-card-icon" src="./assets/icons/food.png" alt="My Happy SVG" />
+          <h2 class="plan-card-heading">Food for a family</h2>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi ducimus quisquam officiis
+            quia enim aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        <div class="plan-card card-2">
+          <img class="plan-card-icon" src="./assets/icons/medicine.svg" alt="My Happy SVG" />
+          <h2 class="plan-card-heading">Medicine for illness</h2>
+          <p class="plan-card-description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi ducimus quisquam officiis
+            quia enim aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        <div class="plan-card card-3">
+          <img class="plan-card-icon" src="./assets/icons/icon5.svg" alt="My Happy SVG" />
+          <h2 class="plan-card-heading">Education for children</h2>
+          <p class="plan-card-description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi ducimus quisquam officiis
+            quia enim aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Donation programs -->
+    <section>
+      <h1 class="text-primary-black">Some urgent donation programs</h1>
+
+      <div class="donation-card-container">
+        <div class="donation-card">
+          <div>
+            <img src="https://em849.files.wordpress.com/2015/05/starving-children1.jpg" alt="" />
+          </div>
+          <h3>Feed these hungry children.</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, omnis?</p>
+
+          <div class="progress-con">
+            <div class="progress"></div>
+          </div>
+
+          <div class="inline-text">
+            <p>Target: $5,000</p>
+            <p>68%</p>
+          </div>
+
+          <button>Donate Now</button>
+        </div>
+        <div class="donation-card">
+          <div>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-5hyFJ9QNfIVHNl0JotGJ6ngDyAx8pRkyQ&usqp=CAU"
+              alt=""
+            />
+          </div>
+          <h3>Help them to live.</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, omnis?</p>
+
+          <div class="progress-con">
+            <div class="progress"></div>
+          </div>
+
+          <div class="inline-text">
+            <p>Target: $10,000</p>
+            <p>68%</p>
+          </div>
+
+          <button>Donate Now</button>
+        </div>
+        <div class="donation-card">
+          <div>
+            <img src="https://thefinancialexpress.com.bd/uploads/1535905765.jpg" alt="" />
+          </div>
+          <h3>Help them to study.</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, omnis?</p>
+
+          <div class="progress-con">
+            <div class="progress"></div>
+          </div>
+
+          <div class="inline-text">
+            <p>Target: $11,000</p>
+            <p>68%</p>
+          </div>
+
+          <button>Donate Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscription with email  -->
+    <section class="subscription">
+      <h1 class="text-primary-black">Get My Update</h1>
+      <p class="text-secondary-black">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />
+        Id minus culpa officia maxime quis a.
+      </p>
+
+      <div class="input-container">
+        <input id="input-email" type="text" placeholder="Email" />
+        <button class="btn-primary subscribe-btn">Subscribe</button>
+      </div>
+    </section>
+
+    <footer>
+      <h3 id="footer-heading">Be Humble</h3>
+      <p class="text-secondary-white">I'm gonna do it</p>
+    </footer>
+  </body>
+</html>

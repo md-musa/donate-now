@@ -1,0 +1,244 @@
+/* Basic Configurations */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+p {
+  margin: 15px 0;
+  font-family: sans-serif;
+}
+
+/* Common styles */
+header,
+section,
+main {
+  margin-bottom: 50px;
+}
+
+.btn-primary {
+  background-color: #e45555;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  padding: 15px 30px;
+}
+
+.text-primary-white {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.text-secondary-white {
+  color: #eaeaea;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.text-primary-black {
+  color: #0f0c18;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.text-secondary-black {
+  color: #3d3d3d;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.center {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+/* Header section */
+header {
+  display: flex;
+  align-items: center;
+  background-image: url('./assets/images/donation13.jpg');
+  background-size: cover;
+  height: 90vh;
+}
+
+/* Main section */
+main {
+  margin-top: 60px;
+}
+
+.amount-btn {
+  width: 120px;
+  height: 80px;
+  font-size: 30px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+  color: #524d4d;
+  outline: none;
+  border: none;
+  margin: auto 10px;
+}
+.selected-amount {
+  background-color: rgb(255, 236, 236);
+  color: #f36666;
+  border: solid 2px #f36666;
+}
+
+#custom-amount {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(208, 208, 208);
+  text-align: center;
+  padding: 10px 80px;
+  margin: 30px 0;
+}
+
+/* Donate plan section */
+.plan-card-container {
+  padding: 10px 80px;
+  display: flex;
+}
+
+.plan-card {
+  width: 28%;
+  height: 250px;
+  border-radius: 7px;
+  background-color: rgb(239, 227, 251);
+  padding: 50px 10px 50px 20px;
+  margin: auto;
+}
+
+.plan-card p {
+  font-size: large;
+}
+
+.card-2 {
+  background-color: rgb(251, 227, 227);
+}
+
+.card-3 {
+  background-color: rgb(248, 251, 227);
+}
+
+.plan-card-icon {
+  object-fit: contain;
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  text-align: center;
+}
+
+/* subscribe section */
+#input-email {
+  padding: 16px 20px;
+  width: 200px;
+  margin-right: -5px;
+  font-size: large;
+  border-radius: 5px 0 0 5px;
+  border: solid 2px #f36666;
+}
+.input-container {
+  height: 170px;
+  margin: auto;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  border-radius: 5px;
+}
+
+/* Donation card */
+.donation-card-container {
+  display: flex;
+  margin: auto;
+  margin: 40px 0;
+  padding: 0 80px;
+}
+
+.donation-card {
+  padding: 10px;
+  margin: auto;
+  border-radius: 8px;
+  width: 30%;
+  position: relative;
+  box-shadow: 3px 12px 15px 9px #e1e1e1;
+  text-align: center;
+}
+
+.donation-card h3 {
+  font-weight: bold;
+}
+
+.donation-card img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.progress-con {
+  width: 100%;
+  height: 5px;
+  border-radius: 999px;
+  background-color: rgb(227, 227, 227);
+  overflow: hidden;
+}
+
+.progress {
+  width: 70%;
+  height: 100%;
+  background-color: #e45555;
+}
+
+.donation-card button {
+  width: 50%;
+  height: 40px;
+  border: none;
+  background-color: #e45555;
+  color: white;
+  outline: none;
+  border-radius: 999px;
+  padding: 10px;
+  align-self: auto;
+  cursor: pointer;
+}
+
+/* Subscribe section */
+
+.subscribe-btn {
+  padding: 17px 20px;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Footer area */
+footer {
+  height: 150px;
+  background-color: #0d0713;
+  padding-top: 15px;
+}
+
+#footer-heading {
+  text-align: center;
+  margin-top: 30px;
+  color: brown;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
